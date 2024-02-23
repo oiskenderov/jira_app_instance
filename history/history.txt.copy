@@ -1,0 +1,1000 @@
+git push -u origin main
+ssh-add ~/.ssh/git
+eval "$(ssh-agent -s)
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/git
+git push -u origin main
+git status
+ll
+docker ps
+dig 
+dig google.com
+docker ps
+cat docker-compose.yml 
+nano haproxy.cfg
+ll
+nano .gitignore 
+git status
+git add -A
+git commit -am 'fixes in gitignore'
+git push 
+mv cloudflare.ini artifacts/
+git status
+git add -A
+history | grep push
+git push -u origin main
+ls -al
+docker ps
+ls -al
+nano haproxy.cfg
+nano docker-compose.yml 
+vim docker-compose.yml 
+nano docker-compose.yml 
+docker-compose up certbot
+nano haproxy.cfg
+nano docker-compose.yml 
+docker-compose restart
+nano docker-compose.yml 
+docker-compose restart
+docker ps
+docker ps -a
+docker-compose up certbot
+nano haproxy.cfg
+docker ps 
+docker-compose restart
+cp haproxy.cfg ./haproxy.cfg.rev4
+nano haproxy.cfg
+sudo certbot certonly --webroot --webroot-path=/var/www/acme-challenge -d teso.az --agree-tos --email oiskenderov@gmail.com
+sudo dnf search certbot
+sudo dnf install certbot
+sudo certbot certonly --webroot --webroot-path=/var/www/acme-challenge -d teso.az --agree-tos --email oiskenderov@gmail.com
+certbot certonly --webroot --webroot-path=/var/www/acme-challenge -d teso.az --agree-tos --email oiskenderov@gmail.com
+sudo certbot -v certonly --webroot --webroot-path=/var/www/acme-challenge -d teso.az --agree-tos --email oiskenderov@gmail.com
+sudo certbot -vv certonly --webroot --webroot-path=/var/www/acme-challenge -d teso.az --agree-tos --email oiskenderov@gmail.com
+mkdir /var/www/acme-challenge
+mkdir -p /var/www/acme-challenge
+sudo certbot -vv certonly --webroot --webroot-path=/var/www/acme-challenge -d teso.az --agree-tos --email oiskenderov@gmail.com
+docker ps
+sudo docker ps
+sudo service docker start
+sudo service docker enable
+sudo service docker status
+docker ps
+docker ps -a
+cd softgile/jira/softgile_jira/
+ll
+alias l="ls -al"
+l
+docker-compose up
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+l
+ls -alr
+tree certs/
+nano docker-compose.yml 
+tmux
+docker ps
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml 
+docker ps
+nano docker-compose.yml 
+mkdir /etc/letsencrypt
+docker ps
+docker-compose up haproxy
+nano docker-compose.yml 
+docker-compose up proxy
+code .
+git push
+git status
+docker-compose up proxy
+docker-compose restart proxy
+docker-compose status proxy
+docker-compose events proxy
+docker-compose logs proxy
+nano haproxy.cfg
+docker-compose restart proxy
+docker-compose logs proxy
+cp haproxy.cfg.rev2 haproxy.cfg
+docker-compose restart proxy
+docker-compose logs proxy
+cp haproxy.cfg.rev4 haproxy.cfg
+docker-compose restart proxy
+docker-compose logs proxy
+cp haproxy.cfg.rev1 haproxy.cfg
+cp haproxy.cfg.rev2 haproxy.cfg
+docker-compose restart proxy
+docker-compose logs proxy
+git status
+git restore haproxy.cfg
+nano haproxy.cfg
+docker-compose restart proxy
+docker-compose logs proxy
+cp haproxy.cfg ./haproxy.cfg.rev.work
+nano haproxy.cfg
+docker-compose restart proxy
+nano haproxy.cfg
+docker ps
+docker-compose logs proxy
+docker-compose restart proxy
+docker-compose logs proxy
+docker-compose restart proxy
+docker-compose logs proxy
+docker-compose restart proxy
+docker-compose logs proxy
+docker-compose restart proxy
+docker-compose logs proxy
+docker-compose restart proxy
+docker-compose logs proxy
+docker-compose restart proxy
+docker-compose logs proxy
+nano docker-compose.yml 
+docker images
+nano docker-compose.yml 
+docker-compose up certbot
+tmux
+nano ~/.tmux.conf
+docker images
+nano ~/.tmux.confshshu
+nano ~/.tmux.conf
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml 
+nano haproxy.cfg
+docker ps
+nano docker-compose.yml 
+nano haproxy.cfg
+docker ps
+shutdown -r now
+cd softgile/jira/softgile_jira/
+alias l="ls -al"
+l
+docker-compose stats
+docker stats
+cd softgile/jira/softgile_jira/
+vim docker-compose.yml 
+nano docker-compose.yml 
+docker-compose up certbot
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+cat docker-compose.yml 
+docker stat
+docker stats
+docker-compose up certbot
+nano docker-compose.yml\ 
+nano docker-compose.yml
+sudo service docker start
+docker stats
+cd softgile/jira/softgile_jira/
+docker-compose up 
+nano softgile/jira/softgile_jira/docker-compose.yml
+cat softgile/jira/softgile_jira/docker-compose.yml
+docker-compose up certbot
+cd softgile/jira/softgile_jira/
+docker-compose up certbot
+cd softgile/jira/softgile_jira/
+docker logs certbot
+docker ps
+cd softgile/jira/softgile_jira/
+nano /var/log/letsencrypt/letsencrypt.log
+docker-compose up certbot
+nano docker-compose.yml 
+ll
+nano docker-compose.yml 
+mv certbot-digitalocean.ini ./artifacts/
+mv certbot-digitalocean.ini ./artifacts/certbot-digitalocean.ini
+ls -al
+ls artifacts/
+nano artifacts/certbot-digitalocean.ini/certbot-digitalocean.ini 
+mv artifacts/certbot-digitalocean.ini/certbot-digitalocean.ini artifacts/
+ls ls
+ls -al artifacts/
+rm -rf artifacts/certbot-digitalocean.ini/
+tree artifacts/
+ls -al artifacts/
+nano docker-compose.yml 
+ll
+ls -al artifacts/
+ls -al
+nano Dockerfile 
+nano docker-compose.yml 
+ll
+cd artifacts/
+certbot_1   | Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
+softgile_jira_certbot_1 exited with code 1
+[root@fedora-s-2vcpu-2gb-ams3-01 artifacts]# ^C
+[root@fedora-s-2vcpu-2gb-ams3-01 artifacts]#
+[root@fedora-s-2vcpu-2gb-ams3-01 artifacts]#
+[root@fedora-s-2vcpu-2gb-ams3-01 artifacts]#
+docker-compose up certbot
+cd ..
+docker-compose up 
+cd softgile/jira/softgile_jira/
+bat certs/
+tree certs/
+rm -rf certs/certbot-digitalocean.ini 
+tree certs/
+docker-compose up certbot
+ docker-compose restart
+docker-compose 
+cd softgile/jira/softgile_jira/ $$ docker-compose up 
+cd softgile/jira/softgile_jira/ && docker-compose up 
+nano docker-compose.yml 
+docker-compose up 
+docker ps
+docker ps -a
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml [B
+docker-compose up certbot
+docker-compose logs certbot
+docker-compose down certbot
+docker-compose down 
+docker-compose logs certbot
+docker-compose up certbot
+docker-compose logs certbot
+docker-compose up certbot
+docker-compose logs certbot
+docker-compose up certbot
+ll
+ls -al artifacts/
+cd artifacts/
+ll
+nano certbot-digitalocean.ini/
+ls certbot-digitalocean.ini/
+rm -rf certbot-digitalocean.ini/
+ll
+nano certbot-digitalocean.ini
+ll
+ertbot_1   | Saving debug log to /var/log/letsencrypt/letsencrypt.log
+certbot_1   | Please enter the domain name(s) you would like on your certificate (comma and/or
+certbot_1   | space separated) (Enter 'c' to cancel): An unexpected error occurred:
+certbot_1   | Saving debug log to /var/log/letsencrypt/letsencrypt.log
+certbot_1   | Please enter the domain name(s) you would like on your certificate (comma and/or
+certbot_1   | space separated) (Enter 'c' to cancel): An unexpected error occurred:
+certbot_1   | EOFErrcertbot_1   | Saving debug log to /var/log/letsencrypt/letsencrypt.logor
+certbot_1   | Please enter the domain name(s) you would like on your certificate (comma and/or
+certbot_1   | space separated) (Enter 'c' to cancel): An unexpected error occurred:
+nano test
+docker-compose logs certbot
+cd ..
+nano docker-compose.yml 
+docker-compose config
+nano docker-compose.yml 
+docker-compose config
+nano docker-compose.yml 
+docker-compose restart 
+docker ps
+docker-compose logs certbot
+nano docker-compose.yml 
+docker-compose logs create-acme-directory
+nano docker-compose.yml 
+docker-compose down -v
+docker-compose up create-acme-directory
+docker ps
+ll
+cd softgile/
+cd jira/softgile_jira/
+ll
+docker ps
+docker-compose logs certbot
+cd softgile/jira/softgile_jira/
+cat docker-compose.yml 
+ls -al
+ls -al acme-challenge/
+nano docker-compose.yml 
+docker ps
+docker ps -a
+docker rmi hello-world
+docker rmi 
+docker -rmi hello-world
+docker rmi hello-world
+docker rmi -f hello-world
+docker images
+nano docker-compose.yml 
+nano bash.sh
+vim docker-compose.yml 
+docker ps
+docker-compose up 
+docker-compose down
+cd softgile/jira/softgile_jira/
+docker-compose down
+docker ps
+docker-compose up 
+ls -al
+rm -rf acme-challenge/
+rm -rf certs/
+ll
+cd softgile/jira/softgile_jira/
+docker ps
+docker-compose logs docker-compose.yml 
+docker-compose logs certbot
+nano haproxy.cfg
+cd softgile/
+cd jira/softgile_jira/
+vim docker-compose.yml 
+cd softgile/jira/softgile_jira/
+ls -al acme-challenge/
+ls -al
+nano docker-compose.yml 
+docker-compose down
+docker ps
+docker-compose logs 
+sdfkll;sdkl;dsk
+ls -al
+cd softgile/jira/softgile_jira/
+ls -al
+rm -rf acme-challenge/
+ll
+docker-compose logs certbot
+docker ps
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml 
+s -al
+ll
+nano haproxy.cfg
+docker-compose stats
+docker stats
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+nano certbot_script.sh
+chmod +x certbot_script.sh
+nano certbot_script.sh
+nano docker-compose.yml 
+docker-compose up certbot
+ls
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano docker-compose.yml 
+docker-compose up certbot
+nano /var/log/letsencrypt/letsencrypt.log 
+docker-compose up certbot
+docker-compose up -d
+docker ps
+ls -al
+docker-compose down
+docker-compose up -d
+docker-compose logs certbot
+dasd
+docker-com
+docker ps
+docker-compose down
+cd softgile/jira/softgile_jira/
+docker-compose down
+docker-compose down -v
+docker-compose down --remove-orphans
+docker images
+docker rmi certbot/dns-cloudflare
+docker-compose up -d
+docker ps
+nano postgre-db-init.sql 
+nano docker-compose.yml 
+docker ps
+cd softgile/jira/softgile_jira/
+ls -al
+docker ps -a
+docker ps
+cd softgile/
+cd jira/softgile_jira/
+ll
+l
+docker-compose up 
+docker ps
+nano docker-compose.yml 
+cd softgile/jira/softgile_jira/
+nano certbot_script.sh 
+./certbot_script.sh 
+. ./certbot_script.sh 
+docker-compose up certbot && docker-compose logs certbot
+nano docker-compose.yml 
+docker-compose up certbo
+docker-compose up certbot
+nano docker-compose.yml 
+ls -al
+ls -al acme-challenge/
+rm -rf acme-challenge/ certbot-digitalocean.ini/ certs/ 
+ls -al acme-challenge/
+ls -al 
+nano docker-compose.yml 
+cat docker-compose.yml 
+nano docker-compose.yml 
+dockerdoc
+shutdown now
+cd softgile/jira/softgile_jira/
+cp docker-compose.yml ./docker-compose.yml.copy
+nano docker-compose.yml
+docker-compose up 
+service docker start
+docker-compose up 
+cd softgile/jira/softgile_jira/
+docker ps
+docker-compose logs certbot
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml
+cd softgile/jira/softgile_jira/
+docker-compose logs certbot
+nano /var/log/letsencrypt/letsencrypt.log 
+ls -al
+tree acme-challenge/
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml
+docker-compose up certbot
+nano docker-compose.yml
+docker-compose up certbot
+docker-compose logs certbot
+docker-compose up certbot
+ls -al
+docker-compose up certbot
+docker-compose down
+shutdown now
+git push
+exit
+ls -al
+cd softgile/jira/softgile_jira/
+ls -al
+git push 
+git push origin 
+git remote add git@github.com:oiskenderov/soft_jira2.git
+git remote add origin git@github.com:oiskenderov/soft_jira2.git
+git pull
+ls -al ~/.ssh/
+cd ~/.ssh/
+git pull origin main
+cd
+cd softgile/jira/softgile_jira/
+git status
+git add -A
+git status
+git commit -am "add changes"
+git pull origin 
+git push 
+history | grep git
+git config --global user.email "oiskenderov@gmail.com"
+push --set-upstream origin main
+git push --set-upstream origin main
+git branch -v
+git push 
+git remote -v
+git pull
+sudo git pull
+tmix
+tmux
+docker ps
+shutdown now
+top
+sudo dnf install ytop
+sudo snap install ytop
+sudo dnf install htop
+htop
+cd softgile/jira/softgile_jira/
+ll
+ls -al /var/www/acme-challenge/
+ls -al /var/www/
+docker-compose logs certbot
+nano docker-compose.yml
+docker-compose restart certbot
+nano docker-compose.yml
+docker-compose restart certbot
+nano docker-compose.yml
+docker-compose restart certbot
+nano docker-compose.yml
+docker-compose restart certbot
+nano docker-compose.yml
+docker-compose restart certbot
+docker-compose up certbot
+sudo dnf remove certbot
+dnf remove certbot
+sudo dnf remove certbot
+docker ps
+sudo snap install --classic certbot
+sudo snap remove --classic certbot
+sudo snap remove certbot
+cd softgile/jira/softgile_jira/
+docker-compose up -d
+docker-compose down
+nano docker-compose.yml
+nano haproxy.cfg
+docker-compose up -d
+docker-compose down
+nano docker-compose.yml
+docker-compose stats
+docker stats
+cd softgile/jira/softgile_jira/
+docker-compose up certbot 
+cat docker-compose.yml
+nano docker-compose.yml
+docker-compose logs certbot
+cd softgile/jira/
+ll
+cd softgile_jira/
+docker-compose logs certbot
+sudo docker run -it --rm --name certbot             -v "/etc/letsencrypt:/etc/letsencrypt"             -v "/var/lib/letsencrypt:/var/lib/letsencrypt"             certbot/certbot certonly
+nano docker-compose.yml
+docker-compose up
+sudo docker run -it --rm --name certbot             -v "/etc/letsencrypt:/etc/letsencrypt"             -v "/var/lib/letsencrypt:/var/lib/letsencrypt"             certbot/certbot certonly
+nano docker-compose.yml
+docker-compose up certbot -d
+docker-compose -d  up certbot
+docker-compose up certbot
+docker-compose down
+shutdown now
+history | grep cert
+sudo certbot certonly --standalone
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo certbot certonly --standalone
+sudo certbot certonly --webroot
+sudo mkdir -p /var/www/acme-challenge/
+ls -al /var/www/acme-challenge/
+dig teso.az
+history 
+dig teso.az
+cd softgile/jira/softgile_jira/
+ll
+docker ps
+docker exec -it -name ac27641e81e9
+docker exec -it -bash -name ac27641e81e9
+docker exec -it ac27641e81e9 /bin/bash
+ls -al
+docker exec -it ac27641e81e9 /bin/bash
+cd softgile/jira/softgile_jira/
+sudo nano docker-compose.yml
+history 
+sudo certbot certonly --standalone
+ping https://zerossl.com/
+ping http://zerossl.com/
+dig https://zerossl.com/
+dig http://zerossl.com/
+dig zerossl.com/
+wget -q --read-timeout=0.0 --waitretry=5 --tries=400 --
+sudo dnf search wget
+sudo dnf install wget -y
+wget -q --read-timeout=0.0 --waitretry=5 --tries=400 --
+wget -q https://ipv4.cloudns.net/api/dynamicURL/?q=NjU4MDY0NTo0NTA4OTMzMTA6MWMxODI3NGRjZjZkNmFjZDhjNTNlYzM0ZWY4M2FmMzM5NjNiMWI0NWU3MzM4Njc0NDY5NWEzNjNlZGY3YjYyNQ --read-timeout=0.0 --waitretry=5 --tries=400 --
+sudo docker-compose up 
+shutdown now
+cd softgile/jira/softgile_jira/
+wget -q --read-timeout=0.0 --waitretry=5 --tries=400 --background https://ipv4.cloudns.net/api/dynamicURL/?q=NjU4MDY0NTo0NTA4OTMzMTA6YTY2ODFmMWJjNmFlMWEyMTY1ZWMyYzdiMGM1MTkxZDUzNjU2MTJlMTM0YzQzOWE2ZDMwMDVlNzlkY2M3YzkxZg
+nano docker-compose.yml
+nano haproxy.cfg
+ll
+ls -al
+nano index.html\?q\=NjU4MDY0NTo0NTA4OTMzMTA6
+docker ps
+nano docker-compose.yml
+docker-compose restart 
+nano haproxy.cfg
+docker-compose up -d
+docker-compose up -d -p 8080:443
+nano docker-compose.yml
+docker-compose up -d
+nano docker-compose.yml
+cd softgile/jira/softgile_jira/
+docker-compose up
+docker ps
+mkdir /.well-known/pki-validation/
+mkdir .well-known/pki-validation/
+mkdir well-known/pki-validation/
+sudo mkdir /.well-known/pki-validation/
+ll
+sudo mkdir -p ./well-known/pki-validation/
+sudo mkdir -p ./.well-known/pki-validation/
+ll
+rm -rf well-known/
+ll
+ls -al
+ls -al .well-known/
+cd .well-known/pki-validation/
+nano 7879791266F07340D2F2CA3801F7D0B4.txt
+cd ../..
+ll
+ls -al
+docker ps
+docker-compose up -d
+docker-compose down
+docker-compose up -d
+nano haproxy.cfg
+docker-compose up -d
+docker ps
+docker-compose up -d
+docker ps
+nano haproxy.cfg
+docker-compose up -d
+docker ps
+docker-compose up -d
+docker ps
+docker-compose down --remove-orphans
+shutdown now
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml
+na
+cd softgile/jira/softgile_jira/
+ll
+cd softgile/jira/softgile_jira/
+docker-compose up 
+cd keys/
+ll
+mkdir ../softgile/jira/softgile_jira/artifacts/keys/ && cp devopssoft.cloudns.be.* fullchain_devopssoft.cloudns.be.crt ../softgile/jira/softgile_jira/keys/ 
+mkdir ../softgile/jira/softgile_jira/keys
+cp devopssoft.cloudns.be.* fullchain_devopssoft.cloudns.be.crt ../softgile/jira/softgile_jira/keys/ 
+cd ../softgile/jira/softgile_jira/
+ll
+ls -al keys/
+ls -al
+nano haproxy.cfg
+docker-compose up proxy
+docker-compose down 
+docker-compose proxy up
+docker-compose up proxy
+ls keys/
+docker-compose up proxy
+ls -al
+ls -al keys/
+cd keys/
+pwd
+docker-compose up proxy
+ls -al
+cd ..
+nano docker-compose.yml
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+mv haproxy.cfg haproxy.cfg.last2
+nano haproxy.cfg
+mv haproxy.cfg haproxy.cfg.last3
+ll
+nano haproxy.cfg
+cd softgile/jira/softgile_jira/
+docker-compose logs proxy
+docker-compose up -d
+docker-compose logs proxy
+docker-compose up -d
+docker-compose down
+docker-compose up -d
+docker-compose logs proxy
+nano haproxy.cfg
+cd softgile/jira/softgile_jira/
+docker ps
+docker-compose down
+docker-compose up 
+docker-compose logs proxy
+docker ps
+docker-compose logs proxy
+cd softgile/
+cd jira/softgile_jira/
+top
+docker stats
+tree softgile/jira/softgile_jira/
+ls -al
+cd softgile/
+cd jira/softgile_jira/
+ls -al
+rm -rf index.html\?q\=NjU4MDY0NTo0NTA4OTMzMTA6*
+ll
+ls -al
+nano haproxy.cfg.rev.work 
+nano haproxy.cfg
+vim  haproxy.cfg
+docker ps
+netstat -tupln
+vim  haproxy.cfg
+nano docker-compose.yml
+mv docker-compose.yml ./docker-compose.yml.last
+ls -al
+nano docker-compose.yml.
+nano docker-compose.yml
+ls -al
+mv docker-compose.yml.save ./docker-compose.yml
+ls -al
+nano docker-compose.yml
+docker-compose down -v
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+cd softgile/jira/softgile_jira/
+docker ps
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+nano docker-compose.yml
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml
+docker-compose logs proxy
+nano haproxy.cfg.last 
+nano haproxy.cfg.rev.work 
+nano haproxy.cfg.rev2
+docker-compose  logs proxy
+nano docker-compose.yml
+docker-compose up -d
+nano docker-compose.yml
+docker-compose up -d
+nano haproxy.cfg
+cd softgile/jira/softgile_jira/keys/
+cd ..
+docker-compose up -d
+docker-compose up
+docker-compose down -v
+docker-compose up
+nano softgile/jira/softgile_jira/docker-compose.yml
+cd softgile/jira/softgile_jira/
+docker-compose up proxy && docker-compose logs proxy
+docker-compose up proxy 
+ll
+nan docker-compose.yml
+nano docker-compose.yml
+docker-compose up -d
+docker-compose down -v
+docker-compose up -d
+docker-compose up proxy
+nano haproxy.cfg
+docker-compose up proxy
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+cat haproxy.cfg
+docker-compose up -d
+docker-compose logs proxy
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+cd s
+cd softgile/jira/softgile_jira/
+docker-compose logs proxy
+docker-compose up proxy
+cd softgile/
+cd jira/softgile_jira/
+docker-compose up -d
+docker-compose down -v
+docker-compose up -d
+docker-compose logs proxy
+cd softgile/jira/softgile_jira/
+docker-compose logs proxy
+cd softgile/jira/softgile_jira/
+ll
+nano haproxy.cfg
+nano haproxy.cfg.save.1
+nano haproxy.cfg.rev.work 
+cp haproxy.cfg.rev.work haproxy.cfg
+nano haproxy.cfg
+nano haproxy.cfg.rev.work 
+ls -al
+ls 
+cp haproxy.cfg.rev.work ./haproxy.cfg
+nano haproxy.cfg
+docker ps
+docker-compose down -v
+nano haproxy.cfg
+nano docker-compose.yml
+nano haproxy.cfg
+ls -al keys/
+nano haproxy.cfg
+nano docker-compose.yml
+ls -al
+docker-compose logs proxy
+z
+fg
+docker-compose logs proxy
+docker-compose up proxy
+ipconfig | grep docker
+docker network inspect softgile_jira_default 
+docker-compose up proxy
+docker-compose down 
+docker-compose up -d
+docker-compose logs proxy
+docker-compose up proxy
+docker-compose up 
+docker-compose up
+docker-compose down -v
+docker-compose up 
+docker-compose down -v
+docker-compose up 
+cd softgile/jira/softgile_jira/
+docker ps
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg.save2
+nano haproxy.cfg.save.2 
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+nano docker-compose.yml
+docker-compose logs 
+nano docker-compose.yml
+docker-compose ps
+nano docker-compose.yml
+cp docker-compose.yml docker-compose.yml.rev1_final
+nano docker-compose.yml
+docker-compose ps
+docker-compose up -d --remove-orphans 
+docker-compose logs
+shutdown now
+cd softgile/jira/softgile_jira/
+ll
+ls
+nano docker-compose.yml.last
+nano docker-compose.yml.save.1 
+nano docker-compose.yml.copy 
+docker-compose up -d 
+docker-compose ps
+docker-compose up -d 
+docker-compose ps
+docker-compose up -d 
+docker-compose ps
+docker-compose up -d 
+docker-compose ps
+docker-compose up -d 
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+nano docker-compose.yml
+cp docker-compose.yml.rev1_final ./docker-compose.yml
+nano docker-compose.yml
+ls -al
+git push origin main 
+git add -A
+git status 
+git commit -am "reverve server and node working on http"
+git push  origin main 
+git push origin main 
+eval "$(ssh-agent -s)"
+git push origin main 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/git
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/git
+git push origin main 
+git status 
+ls -al
+docker-compose down -v --remove-orphans 
+cd softgile/jira/softgile_jira/
+docker-compose logs
+docker-compose ps
+docker-compose up 
+docker-compose up -d --remove-orphans && docker-compose ps
+docker-compose logs 
+docker-compose logs | grep proxy
+docker-compose logs proxy
+docker-compose restart -d
+docker-compose restart
+docker-compose ps
+docker-compose logs proxy
+docker-compose restart
+docker-compose logs proxy
+docker-compose restart
+docker-compose ps
+docker-compose logs proxy
+docker-compose up -d
+docker ps
+docker-compose restart database 
+nano postgre-db-init.sql 
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+docker-compose down -v --remove-orphans 
+curl jdbc:postgresql://152.42.128.202:5432/jiradb
+docker ps
+docker-compose logs | grep ip
+nano docker-compose.yml
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml
+nano haproxy.cfg
+cd softgile/jira/softgile_jira/
+nano haproxy.cfg
+nano postgre-db-init.sql 
+nano haproxy.cfg 
+ls -al haproxy.cfg
+ls -al haproxy.cfg.*
+nano  haproxy.cfg.save2
+nano  haproxy.cfg.save.2 
+docker-compose restart 
+cd softgile/jira/softgile_jira/
+nano docker-compose.yml.rev1_final 
+docker-compose up -d --remove-orphans 
+nano haproxy.cfg
+nano docker-compose.yml
+docker-compose ps
+docker-compose logs proxy
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+docker-compose down -v --remove-orphans 
+docker-compose up --remove-orphans 
+nano docker-compose.yml
+exit
+cat /etc/ssh/sshd_config | grep X11
+nano /etc/ssh/sshd_config
+history
+wxit
+exit
+sudo /etc/init.d/sshd restart
+sudo systemctl status sshd restart
+sudo systemctl restart sshd restart
+systemctl restart sshd
+sudo apt-get install xbase-clients
+sudo dnf search xauth | grep auth
+sudo dnf install xorg-x11-xauth.x86_64-y
+sudo dnf install xorg-x11-xauth.x86_64 -y
+exit
+xauth 
+nano /etc/ssh/sshd_config
+exit
+nano /etc/ssh/sshd_config
+exit
+echo $JAVA_HOME 
+mkdir
+mkdir java
+cd java/
+wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
+tar zxvf jdk-21_linux-x64_bin.tar.gz jdk-21.0.2/
+nano /etc/ssh/sshd_config | grep X11Forwarding
+ll
+nano README.
+nano README.txt 
+sudo ./bin/start-jira.sh 
+export ignore_jvm_version='true'
+sudo ./bin/start-jira.sh 
+export ignore_jvm_version='true'
+sudo ./bin/start-jira.sh 
+export IGNORE_JVM_VERSION='true'
+sudo ./bin/start-jira.sh 
+export IGNORE_JVM_VERSION=1
+export ignore_jvm_version=1
+sudo ./bin/start-jira.sh 
+export IGNORE_JVM_VERSION=true
+export ignore_jvm_version=true
+sudo ./bin/start-jira.sh 
+dnf search openjdk
+dnf search openjdk | grep 17
+sudo dnf install java-1.8.0-openjdk.x86_64
+sudo dnf install java-11-openjdk.x86_64
+sudo dnf install java-latest-openjdk.x86_64
+sudo ./bin/start-jira.sh 
+vim ./bin/start-jira.sh 
+sudo ./bin/start-jira.sh 
+sudo ./bin/start-jira.sh  | less
+vim ./bin/start-jira.sh 
+sudo ./bin/start-jira.sh  | less
+vim ./bin/start-jira.sh 
+sudo ./bin/start-jira.sh  | less
+
+ls bin 
+vim bin/startup.sh
+sudo ./bin/start-jira.sh  | less
+vim bin/startup.sh
+vim bin/catalina.sh
+nano README.txt 
+history
+history | grep rpm
+history
+history | less
+man rpm 
+cd
+rpm man
+man rpm
+rpm -l jdk
+rpm -qa | grep jdk
+rpm --erase jdk-21 java-latest-openjdk
+rpm -qa | grep jdk
+rpm --erase java-latest-openjdk-headless-21
+rpm --erase java-latest-openjdk-headless-21.0.2.0.13-1.rolling.fc39.x86_64
+rpm -qa | grep jdk
+cd jira_app/
+cd atlassian-jira-core-9.12.2-standalone/
+ll
+sudo ./bin/start-jira.sh 
+ip a
+netstat -tupln
+sudo ./bin/start-jira.sh 
+docker ps
+history >> history.txt

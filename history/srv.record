@@ -1,0 +1,56 @@
+<Server port="8005" shutdown="SHUTDOWN">
+    <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
+    <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" SSLRandomSeed="builtin" />
+    <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener"/>
+    <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener"/>
+    <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener"/>
+
+    <Service name="Catalina">
+        <!--
+         ==============================================================================================================
+         DEFAULT - Direct connector with no proxy for unproxied access to Jira.
+
+         If using a http/https proxy, comment out this connector.
+         ==============================================================================================================
+        -->
+
+
+
+        <!-- Relaxing chars because of JRASERVER-67974 -->
+
+        <Connector port="8080" relaxedPathChars="[]|" relaxedQueryChars="[]|{}^&#x5c;&#x60;&quot;&lt;&gt;"
+                   maxThreads="150" minSpareThreads="25" connectionTimeout="20000" enableLookups="false"
+                   maxHttpHeaderSize="8192" protocol="HTTP/1.1" useBodyEncodingForURI="true" redirectPort="8443"
+                   acceptCount="100" disableUploadTimeout="true" bindOnInit="false"/>
+
+	<!-- Define a HTTP/1.1 Connector on port 8443, JSSE NIO implementation -->
+
+	<Connector protocol="org.apache.coyote.http11.Http11NioProtocol"
+           port="8443" />        
+
+	<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+              maxHttpHeaderSize="8192" SSLEnabled="true"
+              maxThreads="150" minSpareThreads="25"
+              enableLookups="false" disableUploadTimeout="true"
+              acceptCount="100" scheme="https" secure="true"
+              sslEnabledProtocols="TLSv1.2,TLSv1.3"
+              clientAuth="false" useBodyEncodingForURI="true"
+              keyAlias="tomcat" keystoreFile="/usr/lib/jvm/java-17-openjdk-amd64/bin/jira.jks" keystorePass="changeit" keystoreType="JKS"/>
+
+<!--
+	<Connector
+           protocol="org.apache.coyote.http11.Http11AprProtocol"
+           port="8443" maxThreads="200"
+           scheme="https" secure="true" SSLEnabled="true"
+           SSLCertificateFile="/root/softgile/cert/fullchain_devopssoft.cloudns.be.crt"
+           SSLCertificateKeyFile="/root/softgile/cert/test.pem"
+           SSLVerifyClient="optional" SSLProtocol="TLSv1+TLSv1.1+TLSv1.2"/>
+-->
+
+	<Connector
+           protocol="org.apache.coyote.http11.Http11NioProtocol"
+           port="8443" maxThreads="200"
+           scheme="https" secure="true" SSLEnabled="true"
+	   keystoreFile="/root/.keystore" keystorePass="changeit"
+           clientAuth="false" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1.2,TLSv1.3" 
+	   sslProtocol="TLS"/>

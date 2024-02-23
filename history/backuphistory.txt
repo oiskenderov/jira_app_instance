@@ -1,0 +1,1000 @@
+  279  cd /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  280  ll
+  281  keytool -genkey -alias jira -keyalg RSA -keystore /jira.jks
+  282  cd
+  283  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  284  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  285  ll
+  286  nano atlassian-jira.log 
+  287  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  288  nano conf/server.xml 
+  289  sudo bash bin/stop-jira.sh 
+  290  sudo bash bin/start-jira.sh 
+  291  nano logs/catalina.out 
+  292  sudo bash bin/start-jira.sh 
+  293  nano conf/server.xml 
+  294  sudo bash bin/stop-jira.sh 
+  295  sudo bash bin/start-jira.sh 
+  296  cd
+  297  ls -al .keystore 
+  298  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  299  nano conf/server.xml 
+  300  sudo bash ./bin/stop-jira.sh 
+  301  sudo bash ./bin/start-jira.sh 
+  302  cat logs/catalina.out 
+  303  ll
+  304  sudo bash ./bin/config.sh 
+  305  nano conf/server.xml 
+  306  sudo bash ./bin/config.sh 
+  307  sudo bash ./bin/configtest.sh 
+  308  sudo bash ./bin/version.sh
+  309  ls -al bin/* | grep .sh
+  310  sudo bash ./bin/startup.sh 
+  311  ls -al bin/* | grep .sh
+  312  ip a
+  313  ll
+  314  cd
+  315  ll
+  316  cd so
+  317  cd softgile/
+  318  ll
+  319  cd cert/
+  320  ll
+  321  pwd
+  322  ll
+  323  ls
+  324  cd
+  325  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  326  ll
+  327  ls -al licenses/
+  328  nano ./conf/server.xml 
+  329  sudo bash ./bin/stop-jira.sh 
+  330  sudo bash ./bin/start-jira.sh 
+  331  cat logs/catalina.out 
+  332  nano ./conf/server.xml 
+  333  sudo bash ./bin/stop-jira.sh 
+  334  sudo bash ./bin/start-jira.sh 
+  335  nano ./conf/server.xml 
+  336  cd ..
+  337  ll atlassian-jira
+  338  ll atlassian-jira-core-9.12.2-standalone/
+  339  ls -al
+  340  nano rootsoftgilecert 
+  341  ls -al ~/.keystore 
+  342  nano ~/.keystore 
+  343  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  344  nano conf/server.xml 
+  345  nano softgile/install.sh 
+  346  ls -al 
+  347  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  348  ll
+  349  nano bin/start-jira.sh 
+  350  sudo bash ./bin/stop-jira.sh 
+  351  sudo bash ./bin/start-jira.sh 
+  352  ll
+  353  cd logs/
+  354  ll
+  355  nano catalina.2024-02-08.log 
+  356  cd ..
+  357  sudo bash ./bin/config.sh 
+  358  netstat -tulnp
+  359  nano conf/server.xml 
+  360  nano ./bin/setenv.sh 
+  361  sudo bash ./bin/stop-jira.sh 
+  362  sudo bash ./bin/start-jira.sh 
+  363  netstat -tulnp
+  364  find /* -iname keytool
+  365  cd /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  366  keytool -import -alias rootCA -keystore /root/.keystore/jira.jsk -trustcacerts -file ~/softgile/cert/fullchain_devopssoft.cloudns.be.crt 
+  367  keytool -genkey -alias jira -keyalg RSA -keystore /root/.keystore/jira.jks
+  368  cd
+  369  find /* -iname keytool
+  370  cd /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  371  find /* -iname keytool
+  372  keytool -genkey -alias tomcat -keyalg RSA -keytool /root/.keystore
+  373  keytool -genkey -alias tomcat -keyalg RSA
+  374  cd
+  375  ls -al
+  376  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  377  nano conf/server.xml 
+  378  cd
+  379  cd /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  380  keytool -certreq -alias jira -file ~/softgile/cert/softg.txt -keystore /root/.keystore/
+  381  keytool -certreq -alias tomcat -file ~/softgile/cert/softg.txt -keystore /root/.keystore/
+  382  keytool -certreq -alias tomcat -file ~/softgile/cert/softg.txt -keystore /root/.keystore/tomcat.jks
+  383  keytool -certreq -alias tomcat -file ~/softgile[B/cert/softg.txt -keystore /root/.keystore/jira.jks
+  384  keytool -certreq -alias tomcat -file ~/softgile/cert/softg.txt -keystore /root/.keystore/tomcat.jks
+  385  keytool -genkey -alias jira -keyalg RSA -keystore jira.jks
+  386  changeit
+  387  keytool -genkey -alias jira -keyalg RSA -keystore jira.jks
+  388  ls
+  389  rm -rf jira.jks 
+  390  keytool -genkey -alias jira -keyalg RSA -keystore ~/root/.keystore/jira.jks
+  391  keytool -genkey -alias jira -keyalg RSA -keystore ~/.keystore/jira.jks
+  392  keytool -genkey -alias jira -keyalg RSA -keystore .keystore/jira.jks
+  393  keytool -genkey -alias jira -keyalg RSA -keystore /jira.jks
+  394  ls
+  395  ls -al 
+  396  keytool -genkey -alias jira -keyalg RSA -keystore 
+  397  keytool -genkey -alias jira -keyalg RSA -keystore /.keystore
+  398  ls -al
+  399  keytool -genkey -alias jira -keyalg RSA -keystore ./
+  400  keytool -genkey -alias tomcat -keyalg RSA -keystore ./
+  401  keytool -genkey -alias tomcat -keyalg RSA -keystore ./tomcat.jks
+  402  ll
+  403  keytool -certreq -alias jira -file ./tomcat.txt -keystore ./tomcat.jks 
+  404  keytool -certreq -alias tomcat -file ./tomcat.txt -keystore ./tomcat.jks 
+  405  keytool -import -alias rootCA -keystore ./tomcat.jks -trustcacerts -file fullchain_devopssoft.cloudns.be.crt 
+  406  keytool -list -alias jira -keystore tomcat.jks 
+  407  keytool -list -alias tomcat -keystore tomcat.jks 
+  408  cd softgile/
+  409  ls
+  410  cd cert/
+  411  ls -al
+  412  pwd
+  413  cd
+  414  cd softgile/
+  415  mkdir cert/used/
+  416  cd
+  417  cd /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  418  ll
+  419  cp tomcat.* test.pem softg.txt fullchain_devopssoft.cloudns.be.crt devopssoft.cloudns.be.* ~/softgile/cert/used/
+  420  cd
+  421  cd softgile/cert/used/
+  422  ll
+  423  pwd
+  424  ip a
+  425  cd
+  426  nano /etc/haproxy/haproxy.cfg
+  427  ls -al
+  428  ll
+  429  rm -rf .keystore 
+  430  ls -al
+  431  ls -al .keystore 
+  432  ls -al 
+  433  '
+  434  cp softgile/cert/* /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  435  ls -al /usr/lib/jvm/java-17-openjdk-amd64/bin/
+  436  netstat -tupln
+  437  ip a
+  438  nano softgile/atlassian-jira-core-9.12.2-standalone/
+  439  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  440  cd softgile/
+  441  nano iptable.sh
+  442  sudo chmod +x iptable.sh 
+  443  sudo bash ./iptable.sh
+  444  iptables -L
+  445  cd /usr/lib/jvm/java-17-openjdk-amd64/
+  446  ll
+  447  cd bin/
+  448  pwd
+  449  ls -al
+  450  cd
+  451  sudo bash ./softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+  452  sudo bash ./softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  453  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  454  cat logs/catalina.out 
+  455  sudo a2enmod ssl
+  456  systemctl status apache2
+  457  sudo apt show haproxy
+  458  sudo add-apt-repository ppa:vbernat/haproxy-2.6 -y
+  459  sudo apt update
+  460  sudo apt install -y haproxy=2.6.\*
+  461  haproxy -v
+  462  sudo systemctl status haproxy
+  463  sudo systemctl enable haproxy
+  464  sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.copy
+  465  nano /etc/haproxy/haproxy.cfg
+  466  systemctl restart haproxy.service 
+  467  systemctl status haproxy.service 
+  468  journalctl -xe
+  469  systemctl status haproxy.service 
+  470  journalctl -xeu
+  471  journalctl -xe
+  472  systemctl start haproxy.service 
+  473  ls
+  474  haproxy -f /etc/haproxy/haproxy.cfg -c
+  475  systemctl start haproxy.service 
+  476  systemctl status haproxy.service 
+  477  systemctl start haproxy.service && systemctl status haproxy.service 
+  478  systemctl restart haproxy.service && systemctl status haproxy.service 
+  479  systemctl status haproxy.service 
+  480  systemctl restart haproxy.service
+  481  journalctl -xeu haproxy.service
+  482  systemctl restart haproxy.service && systemctl status haproxy.service 
+  483  journalctl -xeu haproxy.service
+  484  nano /etc/haproxy/haproxy.cfg
+  485  systemctl restart haproxy.service && systemctl status haproxy.service 
+  486  journalctl -xeu haproxy.service
+  487  nano /etc/haproxy/haproxy.cfg
+  488  systemctl restart haproxy.service && systemctl status haproxy.service 
+  489  journalctl -xeu haproxy.service
+  490  nano /etc/haproxy/haproxy.cfg
+  491  systemctl restart haproxy.service && systemctl status haproxy.service 
+  492  systemctl status haproxy.service 
+  493  nano /etc/haproxy/haproxy.cfg
+  494  netstat -tupln
+  495  nano /etc/haproxy/haproxy.cfg
+  496  systemctl restart haproxy.service && systemctl status haproxy.service 
+  497  netstat -tupln
+  498  systemctl status haproxy.service 
+  499  nano /etc/haproxy/haproxy.cfg
+  500  systemctl restart haproxy.service && systemctl status haproxy.service 
+  501  systemctl status haproxy.service 
+  502  systemctl restart haproxy.service 
+  503  nano /etc/haproxy/haproxy.cfg
+  504  systemctl restart haproxy.service 
+  505  systemctl status haproxy.service 
+  506  journalctl -xeu haproxy
+  507  nano /etc/haproxy/haproxy.cfg
+  508  systemctl restart haproxy.service 
+  509  journalctl -xeu haproxy
+  510  nano /etc/haproxy/haproxy.cfg
+  511  systemctl restart haproxy.service 
+  512  journalctl -xeu haproxy
+  513  netstat -tupln
+  514  nano /etc/haproxy/haproxy.cfg
+  515  systemctl restart haproxy.service 
+  516  netstat -tupln
+  517  netstat -tupln | grep java
+  518  netstat -tupln | grep haproxy
+  519  iptables -L
+  520  man iptables
+  521  netstat -tupln | grep haproxy
+  522  ls
+  523  cd ..
+  524  ls 
+  525  cd
+  526  cd softgile/
+  527  ll
+  528  cp iptable.sh ./iptable-remove.sh 
+  529  nano iptable-remove.sh 
+  530  sudo bash ./iptable-remove.sh 
+  531  iptables -L
+  532  ip a
+  533  ping 127.0.0.1
+  534  ping localhost
+  535  ls -al
+  536  cd atlassian-jira-core-9.12.2-standalone/
+  537  ls -al
+  538  cd logs/
+  539  ls -al
+  540  cat catalina.out 
+  541  systemctl status haproxy.service 
+  542  journalctl -xeu haproxy
+  543  cd ..
+  544  cd
+  545  nano /etc/haproxy/haproxy.cfg
+  546  systemctl restart haproxy.service 
+  547  nano /etc/haproxy/haproxy.cfg
+  548  hostnamectl 
+  549  nano /etc/haproxy/haproxy.cfg
+  550  systemctl restart haproxy.service 
+  551  nano /etc/haproxy/haproxy.cfg
+  552  systemctl restart haproxy.service 
+  553  systemctl status haproxy.service 
+  554  journalctl -xeu haproxy
+  555  nano /etc/haproxy/haproxy.cfg
+  556  systemctl restart haproxy.service 
+  557  systemctl status haproxy.service 
+  558  nano /etc/haproxy/haproxy.cfg
+  559  systemctl restart haproxy.service 
+  560  nano /etc/haproxy/haproxy.cfg
+  561  systemctl restart haproxy.service 
+  562  nano /etc/haproxy/haproxy.cfg
+  563  systemctl status haproxy.service 
+  564  sestatus
+  565  sudo apt install selinux-utils
+  566  sestatus
+  567  sudo apt install policycoreutils
+  568  sestatus
+  569  nano /etc/haproxy/haproxy.cfg
+  570  sudo ufw allow http
+  571  sudo ufw allow https
+  572  sudo ufw status 
+  573  hostname
+  574  nano /etc/haproxy/haproxy.cfg
+  575  systemctl restart haproxy.service 
+  576  nano /etc/haproxy/haproxy.cfg
+  577  systemctl restart haproxy.service 
+  578  nano /etc/haproxy/haproxy.cfg
+  579  systemctl restart haproxy.service 
+  580  nano /etc/haproxy/haproxy.cfg
+  581  y
+  582  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  583  systemctl status haproxy.service 
+  584  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  585  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+  586  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  587  nano /etc/haproxy/haproxy.cfg
+  588  cat softgile/atlassian-jira-core-9.12.2-standalone/logs/catalina.out 
+  589  ip a
+  590  nano /etc/haproxy/haproxy.cfg
+  591  systemctl restart haproxy.service 
+  592  iptables -L
+  593  journalctl -xeu haproxy
+  594  systemctl restart haproxy.service 
+  595  journalctl -xeu haproxy
+  596  systemctl restart haproxy.service 
+  597  systemctl stop haproxy.service 
+  598  systemctl status haproxy.service 
+  599  nano softgile/srv.record
+  600  shutdown -r now
+  601  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  602  nano conf/server.xml 
+  603  nano /etc/haproxy/haproxy.cfg
+  604  nano conf/server.xml 
+  605  sudo bash ./conf/server.xml 
+  606  sudo bash ./bin/shutdown.sh 
+  607  sudo bash ./bin/start-jira.sh 
+  608  cat /logs/catalina.out
+  609  cat ./logs/catalina.out 
+  610  nano conf/server.xml 
+  611  tmux
+  612  nano conf/server.xml 
+  613  cat conf/server.xml 
+  614  nano ../srv.record 
+  615  nano softgile/iptable-remove.sh 
+  616  sudo bash softgile/iptable-remove.sh 
+  617  docker-compose ps
+  618  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  619  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  620  netstat -tupln
+  621  sudo systemctl status jira
+  622  sudo systemctl status jira.service
+  623  nano softgile/atlassian-jira-core-9.12.2-standalone/bin/catalina.sh 
+  624  systemctl status haproxy.service 
+  625  nano /etc/haproxy/haproxy.cfg
+  626  cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.work
+  627  nano /etc/haproxy/haproxy.cfg
+  628  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+  629  nano /etc/haproxy/haproxy.cfg
+  630  systemctl restart haproxy.service 
+  631  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  632  systemctl restart haproxy.service 
+  633  systemctl status haproxy.service 
+  634  nano /etc/haproxy/haproxy.cfg
+  635  systemctl restart haproxy.service 
+  636  systemctl status haproxy.service 
+  637  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  638  systemctl restart haproxy.service 
+  639  systemctl status haproxy.service 
+  640  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+  641  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  642  systemctl restart haproxy.service 
+  643  systemctl status haproxy.service 
+  644  history | grep mod
+  645  sudo a2enmod ssl
+  646  sudo a2enmod
+  647  history | grep mod
+  648  sudo apt install apache2
+  649  sudo a2enmod ssl
+  650  ystemctl restart apache2
+  651  systemctl restart apache2.service 
+  652  journalctl -xeu apache2.service
+  653  systemctl restart haproxy.service 
+  654  systemctl status haproxy.service 
+  655  systemctl stop haproxy.service 
+  656  systemctl start apache2.service 
+  657  systemctl stop apache2.service 
+  658  systemctl disable apache2.service 
+  659  systemctl start haproxy.service 
+  660  systemctl enable haproxy.service 
+  661  sudo apt remove apache2
+  662  nano /etc/haproxy/haproxy.cfg
+  663  systemctl restart haproxy.service 
+  664  systemctl status haproxy.service 
+  665  systemctl restart haproxy.service 
+  666  systemctl status haproxy.service 
+  667  systemctl restart haproxy.service 
+  668  systemctl status haproxy.service 
+  669  systemctl restart haproxy.service 
+  670  systemctl status haproxy.service 
+  671  systemctl restart haproxy.service 
+  672  systemctl status haproxy.service 
+  673  systemctl restart haproxy.service 
+  674  systemctl status haproxy.service 
+  675  systemctl restart haproxy.service 
+  676  systemctl status haproxy.service 
+  677  systemctl restart haproxy.service 
+  678  systemctl status haproxy.service 
+  679  systemctl restart haproxy.service 
+  680  systemctl status haproxy.service 
+  681  journalctl -xeu haproxy
+  682  systemctl restart haproxy.service 
+  683  systemctl stop haproxy.service 
+  684  systemctl start haproxy.service 
+  685  systemctl status haproxy.service 
+  686  journalctl -xeu haproxy
+  687  systemctl restart haproxy.service 
+  688  systemctl status haproxy.service 
+  689  journalctl -xeu haproxy
+  690  systemctl restart haproxy.service 
+  691  systemctl status haproxy.service 
+  692  systemctl restart haproxy.service 
+  693  systemctl status haproxy.service 
+  694  journalctl -xeu haproxy
+  695  systemctl restart haproxy.service 
+  696  systemctl status haproxy.service 
+  697  systemctl restart haproxy.service 
+  698  systemctl status haproxy.service 
+  699  systemctl restart haproxy.service 
+  700  systemctl status haproxy.service 
+  701  systemctl restart haproxy.service 
+  702  systemctl status haproxy.service 
+  703  hostnamectl 
+  704  nano /etc/haproxy/haproxy.cfg
+  705  nano ../srv.record 
+  706  nano /etc/haproxy/haproxy.cfg
+  707  ip a
+  708  systemctl restart haproxy.service 
+  709  nano /etc/haproxy/haproxy.cfg
+  710  systemctl restart haproxy.service 
+  711  nano /etc/haproxy/haproxy.cfg
+  712  systemctl restart haproxy.service 
+  713  cd softgile/atlassian-jira-core-9.12.2-standalone/
+  714  nano /etc/haproxy/haproxy.cfg
+  715  cat /etc/haproxy/haproxy.cfg
+  716  nano /etc/haproxy/haproxy.cfg
+  717  cat /etc/haproxy/haproxy.cfg
+  718  nano /etc/haproxy/haproxy.cfg
+  719  cat /etc/haproxy/haproxy.cfg
+  720  nano /etc/haproxy/haproxy.cfg
+  721  systemctl restart haproxy.service 
+  722  nano /etc/haproxy/haproxy.cfg
+  723  systemctl restart haproxy.service 
+  724  nano /etc/haproxy/haproxy.cfg
+  725  systemctl restart haproxy.service 
+  726  systemctl status haproxy.service 
+  727  cat /etc/haproxy/errors/503.http 
+  728  cat /var/log/haproxy.log
+  729  systemctl restart haproxy.service 
+  730  cat /var/log/haproxy.log
+  731  systemctl restart haproxy.service 
+  732  systemctl status haproxy.service 
+  733  cat /var/log/haproxy.log
+  734  systemctl restart haproxy.service 
+  735  cat /var/log/haproxy.log
+  736  systemctl restart haproxy.service 
+  737  cat /var/log/haproxy.log
+  738  systemctl restart haproxy.service 
+  739  cat /var/log/haproxy.log
+  740  systemctl restart haproxy.service 
+  741  cat /var/log/haproxy.log
+  742  systemctl restart haproxy.service 
+  743  cat /var/log/haproxy.log
+  744  systemctl restart haproxy.service 
+  745  cat /var/log/haproxy.log
+  746  systemctl restart haproxy.service 
+  747  cat /var/log/haproxy.log
+  748  systemctl restart haproxy.service 
+  749  cat /var/log/haproxy.log
+  750  systemctl restart haproxy.service 
+  751  cat /var/log/haproxy.log
+  752  systemctl restart haproxy.service 
+  753  cat /var/log/haproxy.log
+  754  systemctl restart haproxy.service 
+  755  cat /var/log/haproxy.log
+  756  systemctl restart haproxy.service 
+  757  cat /var/log/haproxy.log
+  758  systemctl restart haproxy.service 
+  759  cat /var/log/haproxy.log
+  760  systemctl restart haproxy.service 
+  761  cat /var/log/haproxy.log
+  762  systemctl restart haproxy.service 
+  763  cat /var/log/haproxy.log
+  764  systemctl restart haproxy.service 
+  765  cat /var/log/haproxy.log
+  766  systemctl restart haproxy.service 
+  767  cat /var/log/haproxy.log
+  768  systemctl restart haproxy.service 
+  769  cat /var/log/haproxy.log
+  770  systemctl restart haproxy.service 
+  771  cat /var/log/haproxy.log
+  772  systemctl restart haproxy.service 
+  773  cat /var/log/haproxy.log
+  774  systemctl restart haproxy.service 
+  775  cat /var/log/haproxy.log
+  776  systemctl restart haproxy.service 
+  777  cat /var/log/haproxy.log
+  778  systemctl restart haproxy.service 
+  779  cat /var/log/haproxy.log
+  780  curl https://softgile.devopssoft.cloudns.be/
+  781  cat /var/log/haproxy.log
+  782  systemctl restart haproxy.service 
+  783  cat /var/log/haproxy.log
+  784  systemctl restart haproxy.service 
+  785  systemctl status haproxy.service 
+  786  cat /var/log/haproxy.log
+  787  mv /var/log/haproxy.log /var/log/haproxy.log.old
+  788  cat /var/log/haproxy.log
+  789  systemctl restart haproxy.service 
+  790  cat /var/log/haproxy.log
+  791  systemctl restart haproxy.service 
+  792  cat /var/log/haproxy.log
+  793  cat /var/log/haproxy.log.1 
+  794  mv /var/log/haproxy.log.old /var/log/haproxy.log
+  795  cat /var/log/haproxy.log >> /var/log/haproxy.log.1
+  796  cat /var/log/haproxy.log
+  797  systemctl restart haproxy.service 
+  798  cat /var/log/haproxy.log
+  799  systemctl restart haproxy.service 
+  800  cat /var/log/haproxy.log
+  801  systemctl restart haproxy.service 
+  802  cat /var/log/haproxy.log
+  803  systemctl restart haproxy.service 
+  804  cat /var/log/haproxy.log
+  805  systemctl restart haproxy.service 
+  806  cat /var/log/haproxy.log
+  807  systemctl restart haproxy.service 
+  808  cat /var/log/haproxy.log
+  809  systemctl restart haproxy.service 
+  810  cat /var/log/haproxy.log
+  811  systemctl restart haproxy.service 
+  812  cat /var/log/haproxy.log
+  813  systemctl restart haproxy.service 
+  814  cat /var/log/haproxy.log
+  815  systemctl restart haproxy.service 
+  816  cat /var/log/haproxy.log
+  817  systemctl restart haproxy.service 
+  818  cat /var/log/haproxy.log
+  819  systemctl restart haproxy.service 
+  820  cat /var/log/haproxy.log
+  821  systemctl restart haproxy.service 
+  822  cat /var/log/haproxy.log
+  823  systemctl restart haproxy.service 
+  824  cat /var/log/haproxy.log
+  825  systemctl restart haproxy.service 
+  826  cat /var/log/haproxy.log
+  827  systemctl restart haproxy.service 
+  828  cat /var/log/haproxy.log
+  829  curl -vv https://softgile.devopssoft.cloudns.be/
+  830  curl  https://softgile.devopssoft.cloudns.be/
+  831  systemctl restart haproxy.service 
+  832  cat /var/log/haproxy.log
+  833  curl -vv https://softgile.devopssoft.cloudns.be/
+  834  systemctl restart haproxy.service 
+  835  cat /var/log/haproxy.log
+  836  curl -vv https://softgile.devopssoft.cloudns.be/
+  837  systemctl restart haproxy.service 
+  838  curl -vv https://softgile.devopssoft.cloudns.be/
+  839  ls -al softgile/cert/used/
+  840  systemctl restart haproxy.service 
+  841  curl -vv https://softgile.devopssoft.cloudns.be/
+  842  systemctl restart haproxy.service 
+  843  curl -vv https://softgile.devopssoft.cloudns.be/
+  844  systemctl restart haproxy.service 
+  845  curl -vv https://softgile.devopssoft.cloudns.be/
+  846  systemctl restart haproxy.service 
+  847  cat /var/log/haproxy.log
+  848  curl -vv https://softgile.devopssoft.cloudns.be/
+  849  systemctl restart haproxy.service 
+  850  curl -vv https://softgile.devopssoft.cloudns.be/
+  851  cat /var/log/haproxy.log
+  852  systemctl restart haproxy.service 
+  853  cat /var/log/haproxy.log
+  854  systemctl restart haproxy.service 
+  855  cat /var/log/haproxy.log
+  856  systemctl restart haproxy.service 
+  857  journalctl -xeu haproxy.service
+  858  systemctl restart haproxy.service 
+  859  journalctl -xeu haproxy.service
+  860  systemctl restart haproxy.service 
+  861  journalctl -xeu haproxy.service
+  862  systemctl restart haproxy.service 
+  863  journalctl -xeu haproxy.service
+  864  systemctl restart haproxy.service 
+  865  journalctl -xeu haproxy.service
+  866  systemctl restart haproxy.service 
+  867  journalctl -xeu haproxy.service
+  868  cat /var/log/haproxy.log
+  869  systemctl restart haproxy.service 
+  870  cat /var/log/haproxy.log
+  871  systemctl restart haproxy.service 
+  872  cat /var/log/haproxy.log
+  873  systemctl restart haproxy.service 
+  874  cat /var/log/haproxy.log
+  875  systemctl status haproxy.service 
+  876  journalctl -xeu haproxy.service
+  877  systemctl status haproxy.service 
+  878  systemctl restart haproxy.service 
+  879  journalctl -xeu haproxy.service
+  880  cat /var/log/haproxy.log
+  881  systemctl restart haproxy.service 
+  882  cat /var/log/haproxy.log
+  883  systemctl restart haproxy.service 
+  884  cat /var/log/haproxy.log
+  885  systemctl restart haproxy.service 
+  886  systemctl status haproxy.service 
+  887  cat /var/log/haproxy.log
+  888  systemctl restart haproxy.service 
+  889  cat /var/log/haproxy.log
+  890  systemctl restart haproxy.service 
+  891  cat /var/log/haproxy.log
+  892  systemctl restart haproxy.service 
+  893  cat /var/log/haproxy.log
+  894  systemctl restart haproxy.service 
+  895  cat /var/log/haproxy.log
+  896  systemctl restart haproxy.service 
+  897  cat /var/log/haproxy.log
+  898  curl -vv http://softgile.devopssoft.cloudns.be:8080
+  899  curl -vv https://softgile.devopssoft.cloudns.be
+  900  curl -vvv https://softgile.devopssoft.cloudns.be
+  901  systemctl restart haproxy.service 
+  902  cat /var/log/haproxy.log
+  903  systemctl status haproxy.service 
+  904  systemctl restart haproxy.service 
+  905  systemctl status haproxy.service 
+  906  systemctl restart haproxy.service 
+  907  systemctl status haproxy.service 
+  908  systemctl restart haproxy.service 
+  909  systemctl status haproxy.service 
+  910  cat /var/log/haproxy.log
+  911  systemctl restart haproxy.service 
+  912  systemctl status haproxy.service 
+  913  systemctl restart haproxy.service 
+  914  systemctl status haproxy.service 
+  915  systemctl restart haproxy.service 
+  916  systemctl status haproxy.service 
+  917  systemctl restart haproxy.service 
+  918  systemctl status haproxy.service 
+  919  cat /var/log/haproxy.log
+  920  systemctl restart haproxy.service 
+  921  cat /var/log/haproxy.log
+  922  systemctl restart haproxy.service 
+  923  cat /var/log/haproxy.log
+  924  netstat -tupln
+  925  systemctl restart haproxy.service 
+  926  netstat -tupln
+  927  systemctl restart haproxy.service 
+  928  systemctl status haproxy.service 
+  929  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  930  systemctl restart haproxy.service 
+  931  systemctl status haproxy.service 
+  932  cat /var/log/haproxy.log
+  933  systemctl restart haproxy.service 
+  934  cat /var/log/haproxy.log
+  935  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  936  systemctl restart haproxy.service 
+  937  cat /var/log/haproxy.log
+  938  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+  939  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  940  cat /var/log/haproxy.log
+  941  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+  942  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+  943  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+  944  systemctl restart haproxy.service 
+  945  systemctl status haproxy.service 
+  946  journalctl -xeu haproxy.service
+  947  curl -vvv https://softgile.devopssoft.cloudns.be
+  948  ip a
+  949  systemctl restart haproxy.service 
+  950  systemctl status haproxy.service 
+  951  cat /var/log/haproxy.log
+  952  systemctl status apache2.service 
+  953  systemctl disable apache2.service 
+  954  curl -vvv https://softgile.devopssoft.cloudns.be
+  955  systemctl restart haproxy.service 
+  956  systemctl status apache2.service 
+  957  systemctl restart haproxy.service 
+  958  systemctl status haproxy.service 
+  959  curl -vvv https://softgile.devopssoft.cloudns.be
+  960  systemctl restart haproxy.service 
+  961  cat /var/log/haproxy.log
+  962  systemctl restart haproxy.service 
+  963  cat /var/log/haproxy.log
+  964  curl -vvv https://softgile.devopssoft.cloudns.be
+  965  systemctl restart haproxy.service 
+  966  curl -vvvv https://softgile.devopssoft.cloudns.be
+  967  systemctl restart haproxy.service 
+  968  curl -vvvv https://softgile.devopssoft.cloudns.be
+  969  curl -vvvv https://softgile.devopssoft.cloudns.be:443
+  970  curl -vvvv https://softgile.devopssoft.cloudns.be:8081
+  971  curl -vvvv https://softgile.devopssoft.cloudns.be:8080
+  972  curl -vvvv http://softgile.devopssoft.cloudns.be
+  973  curl -vvvv http://softgile.devopssoft.cloudns.be:8080
+  974  curl -vvvv http://softgile.devopssoft.cloudns.be:443
+  975  curl -vvvv https://softgile.devopssoft.cloudns.be
+  976  systemctl restart haproxy.service 
+  977  systemctl status haproxy.service 
+  978  cat /var/log/haproxy.log
+  979  systemctl restart haproxy.service 
+  980  cat /var/log/haproxy.log
+  981  systemctl restart haproxy.service 
+  982  tail -f /var/log/haproxy.log
+  983  cat /var/log/haproxy.log
+  984  systemctl restart haproxy.service 
+  985  cat /var/log/haproxy.log
+  986  tail -f /var/log/haproxy.log
+  987  systemctl restart haproxy.service 
+  988  tail -f /var/log/haproxy.log
+  989  systemctl restart haproxy.service 
+  990  tail -f /var/log/haproxy.log
+  991  cat /var/log/haproxy.log
+  992  journalctl -xeu haproxy.service
+  993  systemctl restart haproxy.service 
+  994  journalctl -xeu haproxy.service
+  995  cat /var/log/haproxy.log
+  996  systemctl restart haproxy.service 
+  997  cat /var/log/haproxy.log
+  998  tail -f /var/log/haproxy.log
+  999  systemctl restart haproxy.service 
+ 1000  hostname
+ 1001  systemctl restart haproxy.service 
+ 1002  ip a
+ 1003  systemctl restart haproxy.service 
+ 1004  systemctl status haproxy.service 
+ 1005  systemctl restart haproxy.service 
+ 1006  systemctl status haproxy.service 
+ 1007  cat /var/log/haproxy.log
+ 1008  systemctl restart haproxy.service 
+ 1009  systemctl status haproxy.service 
+ 1010  cat /var/log/haproxy.log
+ 1011  systemctl restart haproxy.service 
+ 1012  nano /etc/haproxy/haproxy.cfg
+ 1013  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+ 1014  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1015  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1016  systemctl status haproxy.service 
+ 1017  tail -f /var/log/haproxy.log
+ 1018  iptables -L
+ 1019  ufw status 
+ 1020  ufw disable 
+ 1021  ufw status 
+ 1022  journalctl -xfu haproxy
+ 1023  netstat -plant |grep $portloadbalancer
+ 1024  netstat -tupln
+ 1025  systemctl restart haproxy.service 
+ 1026  netstat -tupln
+ 1027  systemctl restart haproxy.service 
+ 1028  netstat -tupln
+ 1029  systemctl restart haproxy.service 
+ 1030  nano /etc/haproxy/haproxy.cfg
+ 1031  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1032  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1033  nano /etc/haproxy/haproxy.cfg
+ 1034  ipconfig
+ 1035  ip a
+ 1036  nano /etc/haproxy/haproxy.cfg
+ 1037  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1038  systemctl status haproxy.service 
+ 1039  systemctl restart haproxy.service 
+ 1040  hostname
+ 1041  systemctl restart haproxy.service 
+ 1042  systemctl stop haproxy.service 
+ 1043  systemctl start haproxy.service 
+ 1044  journalctl -xeu haproxy
+ 1045  systemctl start haproxy.service 
+ 1046  systemctl stop haproxy.service 
+ 1047  systemctl start haproxy.service 
+ 1048  systemctl restart haproxy.service 
+ 1049  journalctl -xeu haproxy
+ 1050  systemctl restart haproxy.service 
+ 1051  journalctl -xeu haproxy
+ 1052  systemctl restart haproxy.service 
+ 1053  nano softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1054  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1055  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1056  systemctl restart haproxy.service 
+ 1057  systemctl stop haproxy.service 
+ 1058  systemctl start haproxy.service 
+ 1059  systemctl restart haproxy.service 
+ 1060  ufw status 
+ 1061  ufw 
+ 1062  man ufw 
+ 1063  iptables --list-rules
+ 1064  iptables -L -v
+ 1065  sudo iptables -F
+ 1066  systemctl restart haproxy.service 
+ 1067  systemctl stop haproxy.service 
+ 1068  systemctl status haproxy.service 
+ 1069  systemctl start haproxy.service 
+ 1070  systemctl restart haproxy.service 
+ 1071  curl -vvv softgile.devopssoft.cloudns.be
+ 1072  curl -vvv softgile.devopssoft.cloudns.be:443
+ 1073  curl -vvv http://softgile.devopssoft.cloudns.be
+ 1074  curl -vvv http://softgile.devopssoft.cloudns.be:8080
+ 1075  curl -vvv https://softgile.devopssoft.cloudns.be
+ 1076  systemctl restart haproxy.service 
+ 1077  curl -I http://65.108.148.39:8080
+ 1078  curl -I http://65.108.148.39
+ 1079  curl -I https://65.108.148.39
+ 1080  curl -I https://65.108.148.39:443
+ 1081  nc -vz 65.108.148.39:443
+ 1082  nc -vz https://:443
+ 1083  nc -vz https://65.108.148.39:443
+ 1084  nc -vz https://65.108.148.39
+ 1085  nc -vz https://65.108.148.39 443
+ 1086  nc -vz http://65.108.148.39 8080
+ 1087  nc -vz 65.108.148.39 8080
+ 1088  nc -vz 65.108.148.39 443
+ 1089  nc -vz 65.108.148.39 8080
+ 1090  telnet 65.108.148.39 8080
+ 1091  apt install apt
+ 1092  apt install telnet
+ 1093  telnet 65.108.148.39 8080
+ 1094  telnet 65.108.148.39 443
+ 1095  haproxy -c -f /etc/haproxy/haproxy.cfg
+ 1096  openssl x509 -in softgile/cert/used/test.pem -text -noout
+ 1097  systemctl restart haproxy.service 
+ 1098  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1099  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1100  systemctl restart haproxy.service 
+ 1101  curl -vv softgile.devopssoft.cloudns.be:443
+ 1102  curl -vv softgile.devopssoft.cloudns.be
+ 1103  curl -vv https://softgile.devopssoft.cloudns.be
+ 1104  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1105  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1106  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1107  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1108  systemctl restartrestart haproxy.service 
+ 1109  systemctl restart haproxy.service 
+ 1110  haproxy -c -f /etc/haproxy/haproxy.cfg
+ 1111  nano /etc/haproxy/haproxy.cfg
+ 1112  systemctl restart haproxy.service 
+ 1113  nano /etc/haproxy/haproxy.cfg
+ 1114  systemctl restart haproxy.service 
+ 1115  nano /etc/haproxy/haproxy.cfg
+ 1116  systemctl restart haproxy.service 
+ 1117  nano /etc/haproxy/haproxy.cfg
+ 1118  systemctl restart haproxy.service 
+ 1119  nano /etc/haproxy/haproxy.cfg
+ 1120  systemctl restart haproxy.service 
+ 1121  netstat -tupln
+ 1122  netstat -tupln | haproxy
+ 1123  netstat -tupln | grep haproxy
+ 1124  netstat -tupln | grep java
+ 1125  systemctl restart haproxy.service 
+ 1126  haproxy stats
+ 1127  curl -vv https://softgile.devopssoft.cloudns.be
+ 1128  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1129  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1130  cd softgile/
+ 1131  ll
+ 1132  man unzip
+ 1133  mkdir temp
+ 1134  unzip atlassian-jira-core-9.12.2.zip -C temp/
+ 1135  unzip atlassian-jira-core-9.12.2.zip -d temp/
+ 1136  cd temp/
+ 1137  ll
+ 1138  cd atlassian-jira-core-9.12.2-standalone/
+ 1139  ls ial
+ 1140  ls -al
+ 1141  cd conf/
+ 1142  ll
+ 1143  cp server.xml ~/softgile/atlassian-jira-core-9.12.2-standalone/conf/
+ 1144  cd
+ 1145  cd softgile/atlassian-jira-core-9.12.2-standalone/conf/
+ 1146  nano server.xml
+ 1147  systemctl restart haproxy.service 
+ 1148  mv /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.work
+ 1149  cp /etc/haproxy/haproxy.cfg.work /etc/haproxy/haproxy.cfg
+ 1150  nano /etc/haproxy/haproxy.cfg
+ 1151  ufw --dry-run 
+ 1152  ufw --dry-run status
+ 1153  man iptables
+ 1154  nano /etc/haproxy/haproxy.cfg
+ 1155  cp softgile/cert/fullchain_devopssoft.cloudns.be.crt /etc/ssl/certs/
+ 1156  mv /etc/ssl/certs/fullchain_devopssoft.cloudns.be.crt /etc/ssl/certs/ca-certificates.crt
+ 1157  nano /etc/haproxy/haproxy.cfg
+ 1158  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+ 1159  nano /etc/haproxy/haproxy.cfg
+ 1160  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml 
+ 1161  mv softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml.old.v1
+ 1162  ls -al
+ 1163  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1164  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1165  systemctl restart haproxy.service 
+ 1166  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1167  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1168  systemctl restart haproxy.service 
+ 1169  nano /etc/haproxy/haproxy.cfg
+ 1170  systemctl restart haproxy.service 
+ 1171  nano /etc/haproxy/haproxy.cfg
+ 1172  systemctl restart haproxy.service 
+ 1173  netstat -tupln | grep proxy
+ 1174  netstat -tupln | grep java
+ 1175  nano /etc/haproxy/haproxy.cfg
+ 1176  systemctl restart haproxy.service 
+ 1177  nano /etc/haproxy/haproxy.cfg
+ 1178  systemctl restart haproxy.service 
+ 1179  nano /etc/haproxy/haproxy.cfg
+ 1180  systemctl restart haproxy.service 
+ 1181  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1182  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1183  netstat -tupln | grep proxy
+ 1184  netstat -tupln | grep java
+ 1185  nano /etc/haproxy/haproxy.cfg
+ 1186  systemctl restart haproxy.service 
+ 1187  nano /etc/haproxy/haproxy.cfg
+ 1188  netstat -tupln | grep proxy
+ 1189  netstat -tupln
+ 1190  nano /etc/haproxy/haproxy.cfg
+ 1191  systemctl restart haproxy.service 
+ 1192  netstat -tupln
+ 1193  nano /etc/haproxy/haproxy.cfg
+ 1194  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml
+ 1195  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1196  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1197  systemctl restart haproxy.service 
+ 1198  tail -f /var/log/haproxy.log
+ 1199  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml
+ 1200  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1201  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1202  systemctl restart haproxy.service 
+ 1203  tail -f /var/log/haproxy.log
+ 1204  nano softgile/atlassian-jira-core-9.12.2-standalone/conf/server.xml
+ 1205  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1206  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1207  systemctl restart haproxy.service 
+ 1208  tail -f /var/log/haproxy.log
+ 1209  nano /etc/haproxy/haproxy.cfg
+ 1210  tail -f /var/log/haproxy.log
+ 1211  nano /etc/haproxy/haproxy.cfg
+ 1212  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/stop-jira.sh 
+ 1213  sudo bash softgile/atlassian-jira-core-9.12.2-standalone/bin/start-jira.sh 
+ 1214  systemctl restart haproxy.service 
+ 1215  nano /etc/haproxy/haproxy.cfg
+ 1216  nano softgile/atlassian-jira-core-9.12.2-standalone/logs/catalina.out 
+ 1217  tail -f softgile/atlassian-jira-core-9.12.2-standalone/logs/catalina.out 
+ 1218  cat softgile/atlassian-jira-core-9.12.2-standalone/logs/catalina.out 
+ 1219  cat softgile/atlassian-jira-core-9.12.2-standalone/logs/localhost.2024-02-11.log 
+ 1220  cat softgile/atlassian-jira-core-9.12.2-standalone/logs/localhost.2024-02-10.log 
+ 1221  cat softgile/atlassian-jira-core-9.12.2-standalone/logs/localhost.2024-02-08.log 
+ 1222  cd softgile/atlassian-jira-core-9.12.2-standalone/logs/
+ 1223  ll
+ 1224  nano atlassian-jira-gc-2024-02-11_15-05-54.log 
+ 1225  nano catalina.2024-02-
+ 1226  systemctl restart haproxy.service 
+ 1227  netstat -tupln
+ 1228  curl -vv https://softgile.devopssoft.cloudns.be
+ 1229  curl -vv https://softgile.devopssoft.cloudns.be > curl.txt
+ 1230  nano curl.txt 
+ 1231  curl -vv http://softgile.devopssoft.cloudns.be:8080
+ 1232  curl -vv http://softgile.devopssoft.cloudns.be:8443
+ 1233  curl -vv http://softgile.devopssoft.cloudns.be
+ 1234  ls -al
+ 1235  nano host-manager.2024-02-11.log 
+ 1236  nano host-manager.2024-02-10.log 
+ 1237  nano manager.2024-02-11.log 
+ 1238  nano manager.2024-02-10.log 
+ 1239  nano localhost.2024-02-11.log 
+ 1240  nano catalina.2024-02-11.log 
+ 1241  atlasatlassian-jira-gc-2024-02-11_15-05-54.log 
+ 1242  systemctl status haproxy.service 
+ 1243  ip a
+ 1244  systemctl status haproxy.service 
+ 1245  cat /var/lib/haproxy/dev/log 
+ 1246  cat /var/log/haproxy.log
+ 1247  tail -f /var/log/haproxy.log
+ 1248  systemctl restart haproxy.service 
+ 1249  tail -f /var/log/haproxy.log
+ 1250  systemctl restart haproxy.service 
+ 1251  cd softgile/atlassian-jira-core-9.12.2-standalone/logs/
+ 1252  ll
+ 1253  tree
+ 1254  tree | grep 02-11
+ 1255  ls -al | grep 02-11
+ 1256  systemctl restart haproxy.service 
+ 1257  systemctl status haproxy.service 
+ 1258  systemctl restart haproxy.service 
+ 1259  systemctl status haproxy.service 
+ 1260  systemctl restart haproxy.service 
+ 1261  systemctl status haproxy.service 
+ 1262  systemctl restart haproxy.service 
+ 1263  cd ..
+ 1264  du -sh
+ 1265  cd ..
+ 1266  ls
+ 1267  mkdir backup
+ 1268  cp ../softgile/* backup/ && cp /etc/haproxy/haproxy.cfg backup/
+ 1269  cp -r ../softgile/* backup/ && cp /etc/haproxy/haproxy.cfg backup/
+ 1270  ls -al
+ 1271  ls -al backup/
+ 1272  cp -r ../softgile/* backup/ 
+ 1273  ls -al backup/
+ 1274  cp /etc/haproxy/haproxy.cfg backup/
+ 1275  ls -al backup/
+ 1276  cd ..
+ 1277  ls -al
+ 1278  history > softgile/backuphistory.txt

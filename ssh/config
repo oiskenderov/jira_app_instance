@@ -1,0 +1,5 @@
+Host softgile.devopssoft.cloudns.be
+HostName softgile.devopssoft.cloudns.be
+Port 443
+User MeMe
+ProxyCommand openssl s_client -connect softgile.devopssoft.cloudns.be:443 -quiet
